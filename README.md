@@ -9,7 +9,7 @@
 - python2
 - python3
 - mason
-- alacritty (with apt repo ppa:mmstick76/alacritty)
+- alacritty (see https://github.com/alacritty/alacritty/blob/master/INSTALL.md)
 - Hackslug Nerd Font
 
 ### PHP nonsense

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/etc/apt'
+let g:netrw_dirhist_0='/etc'
+let g:netrw_dirhist_9='/etc/apache2'
+let g:netrw_dirhist_8='/home/ConnorM/code/gami/components/Summary'
+let g:netrw_dirhist_7='/home/ConnorM/code/gami/components/Summary/Overview'
+let g:netrw_dirhist_6='/home/ConnorM/code/gami/components/Summary'
+let g:netrw_dirhist_5='/home/ConnorM/code/gami/components'
+let g:netrw_dirhist_4='/home/ConnorM/code/gami/components/Error'
+let g:netrw_dirhist_3='/home/ConnorM/code/gami/components'
+let g:netrw_dirhist_2='/home/ConnorM/code/gami'

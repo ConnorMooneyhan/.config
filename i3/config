@@ -29,7 +29,7 @@ exec --no-startup-id dex --autostart --environment i3
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-set $i3lockwall i3lock -i /home/ConnorM/Pictures/bg1.png -t
+# set $i3lockwall i3lock -i ~/.dotfiles/i3/bg1.png -t
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -194,18 +194,18 @@ bar {
 }
 
 # Focused window color
-client.focused #bd3e7d #6e2c4d #ffffff #2e9ef4 #bd3e7d
+client.focused #c0c0c0 #6e2c4d #ffffff #2e9ef4 #c0c0c0
 
 # Title bar (normal = title, pixel = no title)
 default_border pixel
 
-bindsym $mod+i exec --no-startup-id $i3lockwall
+bindsym $mod+i exec --no-startup-id betterlockscreen -l
 bindsym $mod+Shift+a exec 
 
 # Screenshots
-bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/Screenshots/$(date).png"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/Screenshots/$(date).png"
-bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/Screenshots/$(date).png"
+bindsym Print exec --no-startup-id maim "~/Pictures/Screenshots/$(date).png"
+bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "~/Pictures/Screenshots/$(date).png"
+bindsym Shift+Print exec --no-startup-id maim --select "~/Pictures/Screenshots/$(date).png"
 
 # Clipboard screenshots
 bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
@@ -213,5 +213,5 @@ bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewi
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 exec_always xrandr --output eDP -off 
-exec_always feh --bg-scale /home/ConnorM/Pictures/bg1.png
+exec_always feh --bg-scale ~/.dotfiles/i3/bg1.png
 # exec_always --no-startup-id picom -CGb

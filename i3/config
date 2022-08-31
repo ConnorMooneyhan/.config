@@ -199,7 +199,7 @@ client.focused #c0c0c0 #6e2c4d #ffffff #2e9ef4 #c0c0c0
 # Title bar (normal = title, pixel = no title)
 default_border pixel
 
-bindsym $mod+i exec --no-startup-id betterlockscreen -l
+bindsym $mod+i exec --no-startup-id betterlockscreen -l --time-format "%I:%M:%S %p"
 bindsym $mod+Shift+a exec 
 
 # Screenshots

@@ -11,6 +11,10 @@
 - mason
 - alacritty (see https://github.com/alacritty/alacritty/blob/master/INSTALL.md)
 - Hackslug Nerd Font
+- i3
+- bumblebee-status
+- feh
+- betterlockscreen (https://github.com/betterlockscreen/betterlockscreen)
 
 ### PHP nonsense
 - elasticsearch (see https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html#deb-key)
@@ -18,3 +22,4 @@
 
 ### Work-only
 - VS Code
+

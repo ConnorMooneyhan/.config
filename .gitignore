@@ -10,3 +10,6 @@ profile-115.ovpn
 user-dirs.*
 /nvim
 /GIMP
+/betterlockscreen-main
+/i3lock-color
+main.*

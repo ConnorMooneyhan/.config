@@ -184,7 +184,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
   position top
-  status_command ~/.config/i3/bumblebee-status/bumblebee-status \
+  status_command ~/.dotfiles/i3/bumblebee-status/bumblebee-status \
     -t iceberg-rainbow \
     -m pasink datetime battery \
     -p interval="0.1s" \
@@ -213,7 +213,5 @@ bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewi
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 exec_always xrandr --output eDP -off 
-exec_always slack
-exec_always google-chrome
 exec_always feh --bg-scale /home/ConnorM/Pictures/bg1.png
-exec_always --no-startup-id picom -CGb
+# exec_always --no-startup-id picom -CGb

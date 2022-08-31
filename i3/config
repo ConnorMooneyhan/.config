@@ -200,7 +200,7 @@ client.focused #c0c0c0 #6e2c4d #ffffff #2e9ef4 #c0c0c0
 default_border pixel
 
 bindsym $mod+i exec --no-startup-id betterlockscreen -l --time-format "%I:%M:%S %p"
-bindsym $mod+Shift+a exec 
+bindsym $mod+Shift+i exec --no-startup-id systemctl suspend
 
 # Screenshots
 bindsym Print exec --no-startup-id maim "~/Pictures/Screenshots/$(date).png"

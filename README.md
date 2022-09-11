@@ -1,4 +1,4 @@
-# .dotfiles
+# .config
 
 ## Things to install:
 

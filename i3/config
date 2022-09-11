@@ -184,7 +184,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
   position top
-  status_command ~/.dotfiles/i3/bumblebee-status/bumblebee-status \
+  status_command $XDG_CONFIG_HOME/i3/bumblebee-status/bumblebee-status \
     -t iceberg-rainbow \
     -m pasink datetime battery \
     -p interval="0.1s" \

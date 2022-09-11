@@ -146,4 +146,4 @@ export PATH="$HOME/scripts:$PATH:/usr/local/bin:/usr/local/mysql/bin:/usr/local/
 . "$HOME/.cargo/env"
 
 export TERM=alacritty
-source ~/.bash_completion/alacritty
+# source ~/.bash_completion/alacritty

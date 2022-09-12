@@ -145,5 +145,4 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/scripts:$PATH:/usr/local/bin:/usr/local/mysql/bin:/usr/local/go/bin"
 . "$HOME/.cargo/env"
 
-export TERM=alacritty
 # source ~/.bash_completion/alacritty

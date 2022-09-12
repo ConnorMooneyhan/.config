@@ -10,6 +10,7 @@
 - python3
 - mason
 - alacritty (see https://github.com/alacritty/alacritty/blob/master/INSTALL.md)
+- kitty (https://sw.kovidgoyal.net/kitty/binary/)
 - Hackslug Nerd Font
 - i3
 - bumblebee-status

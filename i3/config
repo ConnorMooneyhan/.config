@@ -98,10 +98,11 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+# bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+# bindsym $mod+space focus mode_toggle
+exec setxkbmap -option 'grp:alt_shift_toggle' -layout "us,us" -variant ",intl"
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -182,15 +183,19 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+# bar {
+#   position top
+#   status_command $XDG_CONFIG_HOME/i3/bumblebee-status/bumblebee-status \
+#     -t iceberg-rainbow \
+#     -m pasink datetime battery \
+#     -p interval="0.1s" \
+#        pasink.limit="100%" pasink.interval="0.1s" \
+#        datetime.format="%B %d, %Y %-I:%M %p" datetime.interval="1s" \
+#        battery.device="battery_BAT0" battery.interval="1m"
+# }
 bar {
   position top
-  status_command $XDG_CONFIG_HOME/i3/bumblebee-status/bumblebee-status \
-    -t iceberg-rainbow \
-    -m pasink datetime battery \
-    -p interval="0.1s" \
-       pasink.limit="100%" pasink.interval="0.1s" \
-       datetime.format="%B %d, %Y %-I:%M %p" datetime.interval="1s" \
-       battery.device="battery_BAT0" battery.interval="1m"
+  status_command i3status
 }
 
 # Focused window color
@@ -203,9 +208,9 @@ bindsym $mod+i exec --no-startup-id betterlockscreen -l --time-format "%I:%M:%S 
 bindsym $mod+Shift+i exec --no-startup-id systemctl suspend
 
 # Screenshots
-bindsym Print exec --no-startup-id maim "~/Pictures/Screenshots/$(date).png"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "~/Pictures/Screenshots/$(date).png"
-bindsym Shift+Print exec --no-startup-id maim --select "~/Pictures/Screenshots/$(date).png"
+bindsym Print exec --no-startup-id maim "$HOME/Pictures/Screenshots/$(date).png"
+bindsym $mod+Print exec --no-startup-id maim --window "$(xdotool getactivewindow) $HOME/Pictures/Screenshots/$(date).png"
+bindsym Shift+Print exec --no-startup-id maim --select "$HOME/Pictures/Screenshots/$(date).png"
 
 # Clipboard screenshots
 bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png

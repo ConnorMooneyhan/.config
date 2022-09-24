@@ -17,6 +17,6 @@ battery 0 {
 }
 
 tztime new_york {
-  format = "%m-%d-%Y %H:%M %p"
+  format = "%m-%d-%Y %I:%M %p"
   timezone = "America/New_York"
 }

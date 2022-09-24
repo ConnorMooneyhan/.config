@@ -7,7 +7,7 @@ order += "battery 0"
 order += "tztime new_york"
 
 volume master {
-  format = "%volume"
+  format = "VOL %volume"
   format_muted = "muted (%volume)"
   device = "pulse"
 }
@@ -17,6 +17,6 @@ battery 0 {
 }
 
 tztime new_york {
-  format = "%m-%d-%Y %H:%M"
+  format = "%m-%d-%Y %H:%M %p"
   timezone = "America/New_York"
 }

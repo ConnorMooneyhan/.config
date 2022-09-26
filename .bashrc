@@ -145,4 +145,4 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/scripts:$PATH:/usr/local/bin:/usr/local/mysql/bin:/usr/local/go/bin"
 . "$HOME/.cargo/env"
 
-# source ~/.bash_completion/alacritty
+source /usr/share/bash-completion/completions/git

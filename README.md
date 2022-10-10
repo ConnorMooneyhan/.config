@@ -16,6 +16,7 @@
 - bumblebee-status
 - feh
 - betterlockscreen (https://github.com/betterlockscreen/betterlockscreen)
+- fd-find (then run `ln -s $(which fdfind) ~/.local/bin/fd`)
 
 ### PHP nonsense
 - elasticsearch (see https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html#deb-key)

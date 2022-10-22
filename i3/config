@@ -46,6 +46,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
+bindsym $mod+Shift+Return exec kitty --session $XDG_CONFIG_HOME/kitty/startup-session.conf
 bindsym $mod+Return exec kitty
 
 # kill focused window
@@ -223,4 +224,3 @@ bindsym $mod+m exec --no-startup-id ~/scripts/switch-monitors
 
 exec_always xrandr --output eDP -off 
 exec_always feh --bg-scale $XDG_CONFIG_HOME/i3/bg1.png
-# exec_always --no-startup-id picom -CGb

@@ -218,6 +218,9 @@ bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection c
 
 bindsym $mod+b exec --no-startup-id ~/scripts/connect-to-buds
 
+# switch monitors
+bindsym $mod+m exec --no-startup-id ~/scripts/switch-monitors
+
 exec_always xrandr --output eDP -off 
 exec_always feh --bg-scale $XDG_CONFIG_HOME/i3/bg1.png
 # exec_always --no-startup-id picom -CGb

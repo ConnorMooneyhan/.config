@@ -227,3 +227,4 @@ bindsym $mod+s exec --no-startup-id ~/scripts/switch-to-speaker
 
 exec_always xrandr --output eDP -off 
 exec_always feh --bg-scale $XDG_CONFIG_HOME/i3/bg1.png
+exec --no-startup-id dunst -config ~/.config/dunst/dunstrc

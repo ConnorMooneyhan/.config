@@ -46,8 +46,8 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Shift+Return exec kitty --session $XDG_CONFIG_HOME/kitty/startup-session.conf
-bindsym $mod+Return exec kitty
+bindsym $mod+Shift+Escape exec kitty --session $XDG_CONFIG_HOME/kitty/startup-session.conf
+bindsym $mod+Escape exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -198,10 +198,17 @@ bar {
 }
 
 # Focused window color
-client.focused #c0c0c0 #6e2c4d #ffffff #2e9ef4 #c0c0c0
+client.focused #c0c0c0 #6e2c4d #ffffff #c0c0c0 #c0c0c0
 
 # Title bar (normal = title, pixel = no title)
 default_border pixel
+
+### GAPS ###
+
+# gaps inner all set 20
+# gaps outer all set 20
+
+############
 
 bindsym $mod+i exec --no-startup-id betterlockscreen -l --time-format "%I:%M:%S %p"
 bindsym $mod+Shift+i exec --no-startup-id systemctl suspend

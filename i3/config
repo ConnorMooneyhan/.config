@@ -214,14 +214,14 @@ bindsym $mod+i exec --no-startup-id betterlockscreen -l --time-format "%I:%M:%S 
 bindsym $mod+Shift+i exec --no-startup-id systemctl suspend
 
 # Screenshots
-bindsym Print exec --no-startup-id maim "$HOME/Pictures/Screenshots/$(date).png"
-bindsym $mod+Print exec --no-startup-id maim --window "$(xdotool getactivewindow) $HOME/Pictures/Screenshots/$(date).png"
-bindsym Shift+Print exec --no-startup-id maim --select "$HOME/Pictures/Screenshots/$(date).png"
+# bindsym Print exec --no-startup-id maim "$HOME/Pictures/Screenshots/$(date).png"
+# bindsym $mod+p exec --no-startup-id maim --window "$(xdotool getactivewindow) $HOME/Pictures/Screenshots/$(date).png"
+bindsym $mod+p exec --no-startup-id maim --select "$HOME/Pictures/Screenshots/$(date).png"
 
 # Clipboard screenshots
-bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
-bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
-bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
+# bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
+# bindsym $mod+Ctrl+p exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+bindsym $mod+Shift+p exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 # toggle buds connection
 bindsym $mod+b exec --no-startup-id ~/scripts/connect-to-buds

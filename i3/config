@@ -232,6 +232,13 @@ bindsym $mod+m exec --no-startup-id ~/scripts/switch-monitors
 # switch audio output back to laptop
 bindsym $mod+s exec --no-startup-id ~/scripts/switch-to-speaker
 
+# volume up
+bindsym $mod+period exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+# volume down
+bindsym $mod+comma exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+# mute
+bindsym $mod+slash exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+
 exec_always xrandr --output eDP -off 
 exec_always feh --bg-scale $XDG_CONFIG_HOME/i3/bg1.png
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc

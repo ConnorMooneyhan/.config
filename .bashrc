@@ -146,4 +146,6 @@ export PATH="$HOME/scripts:$PATH:/usr/local/bin:/usr/local/mysql/bin:/usr/local/
 . "$HOME/.cargo/env"
 
 source /usr/share/bash-completion/completions/git
-source ~/sh-custom/*
+if [ -f ~/sh-custom/* ]; then
+  source ~/sh-custom/*
+fi

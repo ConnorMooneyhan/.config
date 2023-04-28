@@ -1,0 +1,8 @@
+2023/03/16-16:19:25.040 bb9f0 Creating DB /home/ConnorM/.config/Postman/Partitions/0fd76de9-91a7-456b-82b7-73557fc00dd2/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb since it was missing.
+2023/03/16-16:19:25.081 bb9f0 Reusing MANIFEST /home/ConnorM/.config/Postman/Partitions/0fd76de9-91a7-456b-82b7-73557fc00dd2/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/16-16:19:25.124 bba60 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/16-16:19:26.097 bba60 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/16-16:19:26.125 bba60 Level-0 table #5: started
+2023/03/16-16:19:26.132 bba60 Level-0 table #5: 4196 bytes OK
+2023/03/16-16:19:26.146 bba60 Delete type=0 #3
+2023/03/16-16:19:26.147 bba60 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

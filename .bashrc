@@ -141,8 +141,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-
-export PATH="$HOME/scripts:$PATH:/usr/local/bin:/usr/local/mysql/bin:/usr/local/go/bin"
+export DENO_INSTALL="/home/ConnorM/.deno"
+export PATH="$HOME/scripts:$DENO_INSTALL/bin:$PATH:/usr/local/bin:/usr/local/mysql/bin:/usr/local/go/bin"
 . "$HOME/.cargo/env"
 
 source /usr/share/bash-completion/completions/git

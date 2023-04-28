@@ -1,0 +1,18 @@
+00:00:00.311355 VirtualBox GUI VM Selector Window 6.1.38_Ubuntu r153438 linux.amd64 (Sep  7 2022 11:18:57) release log
+00:00:00.311357 Log opened 2023-04-28T14:11:45.859061000Z
+00:00:00.311359 Build Type: release
+00:00:00.311366 OS Product: Linux
+00:00:00.311368 OS Release: 5.19.0-41-generic
+00:00:00.311369 OS Version: #42~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 18 17:40:00 UTC 2
+00:00:00.311399 DMI Product Name: 21CQ000GUS
+00:00:00.311406 DMI Product Version: ThinkPad T14s Gen 3
+00:00:00.311418 Firmware type: UEFI
+00:00:00.311679 Secure Boot: Disabled
+00:00:00.311748 Host RAM: 30852MB (30.1GB) total, 23259MB (22.7GB) available
+00:00:00.311754 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.311755 Process ID: 17457
+00:00:00.311756 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.311834 Qt version: 5.15.3
+00:00:00.330852 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.330879 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.677908 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1376x20 x 688x1420

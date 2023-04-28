@@ -1,0 +1,40 @@
+00:00:00.000772 main     VirtualBox XPCOM Server 6.1.38_Ubuntu r153438 linux.amd64 (Sep  7 2022 11:18:57) release log
+00:00:00.000777 main     Log opened 2023-04-28T14:11:45.698396000Z
+00:00:00.000778 main     Build Type: release
+00:00:00.000782 main     OS Product: Linux
+00:00:00.000783 main     OS Release: 5.19.0-41-generic
+00:00:00.000785 main     OS Version: #42~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 18 17:40:00 UTC 2
+00:00:00.000817 main     DMI Product Name: 21CQ000GUS
+00:00:00.000823 main     DMI Product Version: ThinkPad T14s Gen 3
+00:00:00.000833 main     Firmware type: UEFI
+00:00:00.001082 main     Secure Boot: Disabled
+00:00:00.001143 main     Host RAM: 30852MB (30.1GB) total, 23282MB (22.7GB) available
+00:00:00.001147 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001149 main     Process ID: 17480
+00:00:00.001150 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002439 main     IPC socket path: /tmp/.vbox-ConnorM-ipc/ipcd
+00:00:00.107092 nspr-2   VirtualBox: object creation starts
+00:00:00.107398 nspr-2   Home directory: '/home/ConnorM/.config/VirtualBox'
+00:00:00.114332 nspr-2   Failed to retrive disk info: getDiskName(/dev/mapper/vgubuntu-root) --> vgubuntu-root
+00:00:00.120040 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp1s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.121340 nspr-2   HostDnsMonitor: initializing
+00:00:00.121493 nspr-2   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.121501 nspr-2   NAT: resolv.conf: ignoring "options edns0 trust-ad"
+00:00:00.121509 nspr-2   HostDnsMonitor: updating information
+00:00:00.121521 nspr-2   HostDnsMonitor: old information
+00:00:00.121524 nspr-2     no server entries
+00:00:00.121529 nspr-2     no domain set
+00:00:00.121532 nspr-2     no search string entries
+00:00:00.121536 nspr-2   HostDnsMonitor: new information
+00:00:00.121540 nspr-2     server 1: 127.0.0.53
+00:00:00.121545 nspr-2     domain: lan
+00:00:00.121549 nspr-2     search string 1: lan
+00:00:00.126219 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.126820 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.127207 nspr-2   VirtualBox: object created
+00:00:14.130145 main     VirtualBox: object deletion starts
+00:00:14.130422 main     HostDnsMonitor: shutting down ...
+00:00:14.130596 main     HostDnsMonitor: shut down
+00:00:14.630155 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:19.130700 main     {00007f712401fcb0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:19.131222 main     VirtualBox: object deleted

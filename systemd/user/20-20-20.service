@@ -2,4 +2,4 @@
 Description=20-20-20 Rule
 
 [Service]
-ExecStart=/bin/sh ~/scripts/20-20-20
+ExecStart=/bin/sh /home/ConnorM/scripts/20-20-20
